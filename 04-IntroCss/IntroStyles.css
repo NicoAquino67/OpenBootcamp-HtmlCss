@@ -1,0 +1,12 @@
+.colores{
+    color: red;
+}
+.hexadecimal{
+    color: #1e9ecc;
+}
+.rgb{
+    color: rgb(34, 222, 0);
+}
+.rgba{
+    color: rgba(0, 222, 0, 0.5);
+}
