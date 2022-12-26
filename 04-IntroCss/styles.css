@@ -1,0 +1,26 @@
+*{
+    color: black;
+}
+h1{
+    color: tomato;
+}
+/*ass*/
+p{
+    color: hsl(23, 81%, 19%);
+    font-size: 10pt;
+}
+#noticia1{
+    color: green;
+    font-size: 15pt;
+}
+.noticia2{
+    background-color: black;
+    color: springgreen;
+}
+#cabezilla{
+    font-weight: 700;
+    color: blueviolet;
+}
+.autor, .ubicacion, .fecha {
+    text-decoration: underline;
+}
