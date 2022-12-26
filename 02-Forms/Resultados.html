@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resultados</title>
+    </head>
+    <body>
+        <h3>Mostrar Resultados</h3>
+        <div id="resultados"></div>
+        <br>
+        <a href="Formularios.html">Volver al Formulario</a>
+    <script>
+        const resDiv = document.getElementById("resultados");
+        new URLSearchParams(window.location.search).forEach((val, name)=>{
+            resDiv.append(`${name}: ${val}`)
+            resDiv.append(document.createElement("br"))
+        })
+    </script>
+    <a href="javascript:history.back()"> Volver Atrás</a>
+    </body>
+</html>
